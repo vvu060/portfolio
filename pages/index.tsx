@@ -2,6 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import { Inter, Montserrat } from "@next/font/google";
 import styles from "@/styles/Home.module.css";
+import Header from "@/components/Header";
 
 const inter = Montserrat({ subsets: ["latin"] });
 
@@ -14,8 +15,8 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="h-screen w-screen bg-gray-700">
-        <h1 className="text-3xl text-purple-700">Portfolio website</h1>
+      <main className="h-screen w-screen bg-primary">
+        <Header />
       </main>
     </>
   );
