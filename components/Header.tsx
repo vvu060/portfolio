@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import Image from "next/image";
 
+const links = ["Home", "Portfolio", "Contact"];
+
 const Header = () => {
+  const [activeLink, setActiveLink] = useState("");
   return (
     <header className="w-full h-20 flex items-center justify-between py-4 px-6 bg-transparent">
       {/* Logo */}
@@ -14,16 +17,15 @@ const Header = () => {
         {/* Links */}
         <div>
           <ul className="flex items-center space-x-5 text-light-text">
-            <li className="hover:text-white">
-              <a href="#">Home</a>
-              <div className="h-[2px] bg-white" />
-            </li>
-            <li>
-              <a href="#">Portfolio</a>
-            </li>
-            <li>
-              <a href="#">Contact</a>
-            </li>
+            {links.map((link) => (
+              <li
+                className="hover:text-white"
+                onClick={() => setActiveLink(link)}
+              >
+                <a href="#">{link}</a>
+                {activeLink === link && <div className="h-[2px] bg-white" />}
+              </li>
+            ))}
           </ul>
         </div>
       </div>
