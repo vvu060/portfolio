@@ -16,7 +16,7 @@ const Header = () => {
 
         {/* Links */}
         <div>
-          <ul className="flex items-center space-x-5 text-light-text">
+          <ul className="flex items-center  space-x-5 text-light-text">
             {links.map((link) => (
               <li
                 className="hover:text-white"

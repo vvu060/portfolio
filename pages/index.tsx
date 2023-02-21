@@ -3,6 +3,7 @@ import Image from "next/image";
 import { Inter, Montserrat } from "@next/font/google";
 import styles from "@/styles/Home.module.css";
 import Header from "@/components/Header";
+import ContactMe from "@/components/ContactMe";
 
 const inter = Montserrat({ subsets: ["latin"] });
 
@@ -17,6 +18,7 @@ export default function Home() {
       </Head>
       <main className="h-screen w-screen bg-primary font-montserrat">
         <Header />
+        <ContactMe />
       </main>
     </>
   );
