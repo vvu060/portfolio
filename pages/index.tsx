@@ -4,8 +4,9 @@ import { Inter, Montserrat } from "@next/font/google";
 import styles from "@/styles/Home.module.css";
 import Header from "@/components/Header";
 import ContactMe from "@/components/ContactMe";
-import Contact from "@/components/Contact";
+
 import Footer from "@/components/Footer";
+import Contact from "@/components/Contact";
 
 const inter = Montserrat({ subsets: ["latin"] });
 
@@ -20,9 +21,9 @@ export default function Home() {
       </Head>
       <main className="h-full  w-screen bg-primary font-montserrat">
         <Header />
-        <Contact/>
+        <Contact />
         {/* <ContactMe /> */}
-        <Footer/>
+        <Footer />
       </main>
     </>
   );
