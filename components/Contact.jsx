@@ -32,7 +32,7 @@ const Contact = () => {
         </div>  
 
         <div className='flex space-x-9'>
-             <Email/>
+            <Email/>
         <div className='flex flex-col'>
              <h2 className="text-3xl sm:text-3xl sm:tracking-wide font-montserrat font-semibold">Email</h2>
              <p className="text-lg  font-montserrat font-light max-w-2xl">example@email.com</p>

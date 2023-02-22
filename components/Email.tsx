@@ -1,9 +1,11 @@
 import React from "react";
+import styles from "@/styles/Home.module.css";
 
 const Email = () => {
   return (
     <div className="bg-[#2D2E32] h-24 w-24 flex items-center justify-center rounded-full">
       <svg
+        style={{ }}
         fill="#64F4AB"
         width="64px"
         height="64px"
@@ -19,7 +21,7 @@ const Email = () => {
         />
 
         <g id="SVGRepo_iconCarrier">
-          <path d="M22,5V9L12,13,2,9V5A1,1,0,0,1,3,4H21A1,1,0,0,1,22,5ZM2,11.154V19a1,1,0,0,0,1,1H21a1,1,0,0,0,1-1V11.154l-10,4Z" />
+          <path id="email__icon" d="M22,5V9L12,13,2,9V5A1,1,0,0,1,3,4H21A1,1,0,0,1,22,5ZM2,11.154V19a1,1,0,0,0,1,1H21a1,1,0,0,0,1-1V11.154l-10,4Z" />
         </g>
       </svg>
     </div>
