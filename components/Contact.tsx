@@ -26,8 +26,8 @@ const Contact = () => {
         {/* Email and Phone */}
         <div className="flex items-center space-x-10 pt-10">
           <div className="flex items-start space-x-9">
-            <div className="p-3 rounded-full bg-gray-900">
-              <Image src="/phone.svg" alt="My Image" width={50} height={50} />
+            <div className="p-3 rounded-full bg-gray-900 hover:bg-yellow-500">
+              <Image src="/phone.svg" alt="phone" width={50} height={50} />
             </div>
             <div className="flex flex-col">
               <h2 className="text-3xl sm:text-3xl sm:tracking-wide font-semibold">
@@ -39,8 +39,8 @@ const Contact = () => {
           </div>
 
           <div className="flex items-start space-x-9">
-            <div className="p-3 rounded-full bg-gray-900">
-              <Image src="/email.svg" alt="My Image" width={50} height={50} />
+            <div className="p-3 rounded-full bg-gray-900 hover:bg-yellow-500">
+              <Image src="/email.svg" alt="email" width={50} height={50} />
             </div>
             <div className="flex flex-col">
               <h2 className="text-3xl sm:text-3xl sm:tracking-wide font-semibold">
